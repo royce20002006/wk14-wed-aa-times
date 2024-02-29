@@ -2,12 +2,23 @@
    display: grid;
    grid-template-columns: 1fr 2fr 1fr 2fr 1fr 2fr 2fr 1fr .75fr;
    grid-template-rows: 1;
-   grid-auto-flow: column;
-   column-gap: 20px;
    padding: 20px 10%;
+   column-gap: 40px;
+   
    
 
 }
+
+.intrest_img {
+   width: 100px;
+     
+    
+}
+
+.interests-bar__headline {
+    font-weight: bold;
+}
+
 
  
 
