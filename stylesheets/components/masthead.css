@@ -38,6 +38,8 @@
 .lt{
   grid-column-start: 2;
   grid-row-start: 2;
+  display: flex;
+  justify-content: center;
 }
 
 .logo{
@@ -87,9 +89,14 @@
   text-transform: uppercase;
   font-size: 10px;
   color: #6f6f6f;
-  
   display: flex;
   justify-content: center;
   align-items: center;
   column-gap: 10px;
+  position: relative;
+  top: 04px;
+  border-top: 1px solid #e2e2e2;
+  border-left: 1px solid #e2e2e2;
+  border-right: 1px solid #e2e2e2;
+  
 }
