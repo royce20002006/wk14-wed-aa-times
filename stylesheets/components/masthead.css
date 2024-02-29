@@ -38,8 +38,12 @@
 .lt{
   grid-column-start: 2;
   grid-row-start: 2;
-  display: flex;
+  display: inline-flex;
   justify-content: center;
+  position: relative; 
+  line-height: 10px;
+  top: 1px;
+  
 }
 
 .logo{
@@ -48,7 +52,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 40px;
+  padding-top: 11px;
+  background-color: white;
+  background-clip: padding-box; 
+  
 }
 
 .action{
@@ -64,6 +71,7 @@
   padding: 10px;
   border-bottom: 1px solid #e2e2e2;
   border-top: 1px solid #e2e2e2;
+  background-color: white;
 }
 
 
@@ -91,12 +99,13 @@
   color: #6f6f6f;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
   column-gap: 10px;
-  position: relative;
-  top: 04px;
+  /* position: relative; */
+  /* top: 01px; */
   border-top: 1px solid #e2e2e2;
   border-left: 1px solid #e2e2e2;
   border-right: 1px solid #e2e2e2;
+  background-color: white;
   
 }
