@@ -11,6 +11,7 @@
   display: flex;
   align-items: center;
   padding-left: 20px;
+  
 }
 
 .date{
@@ -41,7 +42,7 @@
   display: inline-flex;
   justify-content: center;
   position: relative; 
-  line-height: 10px;
+  line-height: 12px;
   top: 1px;
   
 }
@@ -101,6 +102,7 @@
   justify-content: center;
   align-items: flex-end;
   column-gap: 10px;
+  padding: 0 3px;
   /* position: relative; */
   /* top: 01px; */
   border-top: 1px solid #e2e2e2;
