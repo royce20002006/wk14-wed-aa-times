@@ -1,1 +1,16 @@
+.interest__links {
+   display: grid;
+   grid-template-columns: 1fr 2fr 1fr 2fr 1fr 2fr 2fr 1fr .75fr;
+   grid-template-rows: 1;
+   grid-auto-flow: column;
+   column-gap: 20px;
+   padding: 20px 10%;
+   
+
+}
+
+ 
+
+
+
 
