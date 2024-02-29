@@ -2,7 +2,7 @@
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
-  column-gap: 1%;
+  column-gap: 2%;
   font-size: 12px;
   padding-top: 10px;
   font-weight: bold;
