@@ -1,1 +1,95 @@
-/* Your code here */
+.masthead {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  padding: 0 40px;
+}
+
+.ms {
+  grid-column-start: 1;
+  grid-row-start: 1;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.date{
+  grid-column-start: 1;
+  grid-row-start:3 ;
+  display: flex;
+  align-items: flex-end;
+  font-size: 11px;
+  
+}
+
+.tp{
+  grid-column-start: 3;
+  grid-row-start: 3;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  font-size: 11px;
+  }
+
+  .action, .ms {
+    margin-top: 5px;
+  }
+
+.lt{
+  grid-column-start: 2;
+  grid-row-start: 2;
+}
+
+.logo{
+  grid-column-start: 2;
+  grid-row-start: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+}
+
+.action{
+  grid-column-start: 3;
+  grid-row-start: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 7px 9px;
+}
+
+.date, .logo, .tp {
+  padding: 10px;
+  border-bottom: 1px solid #e2e2e2;
+  border-top: 1px solid #e2e2e2;
+}
+
+
+.hamburg {
+  font-size: 11px;
+  padding: 7px 9px;
+}
+
+.hamburg:hover{
+  background-color: #f7f7f5;
+}
+
+.search:hover{
+  background-color: #f7f7f5;
+}
+
+.search {
+  font-size: 11px;
+  padding: 7px 9px;
+}
+
+.tech {
+  text-transform: uppercase;
+  font-size: 10px;
+  color: #6f6f6f;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+}
