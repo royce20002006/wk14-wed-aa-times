@@ -5,14 +5,13 @@
    padding: 10px 0 ;
    border-top: 1px solid black;
    border-bottom: 1px solid black;
-   align-items: center;
    gap: 10px;
    margin: 5px auto
     
 }
 
-.interest_img {
-    width: 100px;
+.interests-bar__image {
+    width: 110px;
     
 }
 .text-box {
@@ -23,10 +22,37 @@
 .interests-bar__headline {
     font-weight: bold;
 }
+.interests-bar__stock-price {
+  font-size: 14px;
+  line-height: 35px;
+}
+.percent {
+   position: relative;
+   left: 50px;
+   font-weight: 600;
+   color: rgb(0, 201, 0);
+  
+}
+
+.interests-bar__big-text {
+  font-size: 25px;
+  font-weight: 600;
+  position: relative;
+  top: 40px;
+}
+
+ .sun {
+  position: relative;
+  right: 40%;
+  width: 110px;
+ }
 
 
- 
 
 
+@media screen and (max-width: 999px) {
+.interest__links {
+  display: none;
+} 
 
-
+}
