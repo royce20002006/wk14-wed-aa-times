@@ -34,7 +34,7 @@ grid-template-areas:
 .main {
   display: block;
   position: relative;
-  bottom: 130px;
+  bottom: 100px;
   grid-area: main;
 }
 
@@ -46,40 +46,55 @@ grid-template-areas:
 
 .vid {
   position: relative;
-  bottom: 156px;
+  bottom: 100px;
   grid-area: vid;
 }
 
 .opinions {
   grid-area: opinion;
+  border-left: 1px solid #e6e6e6;
+  margin-bottom: -20px;
+  padding-left: 10px;
+  padding-bottom: 30px;
 }
 
 .ops {
   grid-area: ops;
+  border-left: 1px solid #e6e6e6;
+  padding-left: 10px;
 }
 
 .where {
   position: relative;
   bottom: 100px;
   grid-area: where;
-  border-top: 1px solid #e6e6e6;
+  border-top: 1px solid black;
+  z-index: 1;
+  margin: 0 -20px;
+  padding: 10px 0;
+  border-right: 1px solid #e6e6e6;
 }
 
 .cat {
   position: relative;
   bottom: 100px;
   grid-area: cat;
-  border-top: 1px solid #e6e6e6;
+  border-top: 1px solid black;
+  z-index: 1;
+  padding: 10px 10px;
 }
 .articles {
-  display: flex;
-  flex-flow: row wrap;
+  display: grid;
+  grid-template-columns: auto auto;
   gap: 10px;
   position: relative;
   bottom: 100px;
   grid-area: a5;
+  border-left: 1px solid #e6e6e6;
+  padding-left: 10px;
 }
 
+.a1
 p {
   padding-bottom: 20px;
   line-height: 16px;
@@ -92,4 +107,27 @@ p {
 .ops img {
   height: 114px;
   width: 600px;
+}
+
+.where {
+  
+}
+
+.art,
+.art-r {
+  border-top: 1px solid #e6e6e6;
+}
+
+.art-r {
+  border-left: 1px solid #e6e6e6;
+  padding-left: 10px;
+  margin-bottom: -10px;
+}
+
+.ops {
+  border-top: 1px solid #e6e6e6;
+}
+
+.caption {
+  color: rgb(0, 124, 196);
 }
