@@ -8,7 +8,10 @@ main {
   
 grid-template-areas: 'title title opinion .'
 'main vid ops .'
-'where cat ';
+'where cat a1 a5'
+'. . a2 a6'
+'. . a3 a7'
+'. . a4 .';
   
 
 }
