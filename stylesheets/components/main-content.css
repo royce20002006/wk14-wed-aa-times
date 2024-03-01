@@ -1,17 +1,18 @@
 main {
   display: grid;
-  grid-template-columns: 10% 10% 10% 10%;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: auto;
   grid-gap: 20px;
   margin: auto;
   padding: 20px;
   
-grid-template-areas: 'title title opinion .'
+grid-template-areas: 
+'title title opinion .'
 'main vid ops .'
 'where cat a1 a5'
 '. . a2 a6'
 '. . a3 a7'
-'. . a4 .';
+'. . a4 .'
   
 
 }
