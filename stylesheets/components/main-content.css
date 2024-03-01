@@ -1,18 +1,18 @@
 main {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto;
   grid-gap: 20px;
   margin: auto;
   padding: 20px;
   
 grid-template-areas: 
-'title title opinion .'
-'main vid ops .'
-'where cat a1 a5'
-'. . a2 a6'
-'. . a3 a7'
-'. . a4 .'
+'title title  opinion '
+'main  vid  ops '
+'where cat  a5'
+'. . a2 '
+'. . a3 '
+'. . a4 '
   
 
 }
@@ -62,34 +62,9 @@ main li {
 .cat {
   grid-area: cat;
 }
-
-.a1 {
-  grid-area: a1;
-}
-
-.a2 {
-  grid-area: a2;
-}
-
-.a3 {
-  grid-area: a3;
-}
-
-.a4 {
-  grid-area: a4;
-}
-
-.a5 {
+.articles {
   grid-area: a5;
 }
-
-.a6 {
-  grid-area: a6;
-}
-
-.a7 {
-  grid-area: a7;
-} 
 
 p {
   line-height: 16px;
