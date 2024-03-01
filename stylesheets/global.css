@@ -20,10 +20,16 @@ button:hover {
   background-color: #326891;
 }
 
-header,
+
 footer,
 main {
   margin: auto;
   max-width: 1400px;
   padding: 0 40px;
+}
+
+
+header, section {
+  max-width: 1400px;
+  margin: auto;
 }
