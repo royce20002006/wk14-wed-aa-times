@@ -6,7 +6,7 @@
   font-size: 12px;
   padding: 0.5em;
   position: absolute;
-  left: 80%;
+  right: 30px;
   top: 3.5em;
   width: 200px;
   z-index: 1;
@@ -27,6 +27,10 @@
   text-transform: uppercase;
 }
 
+.pref--hidden {
+  display: none;
+}
+
 .pref__section-link {
   margin: .5em;
   padding: .5em;
@@ -37,11 +41,9 @@
   background-color: #dedede;
 }
 
-
-@media (max-height: 1640px) and (min-height: 1000px) {
-  .pref{
-    
-   
+@media screen and (max-width: 1450px) {
+  .pref {
+    right: 0;
   }
-  
 }
+
