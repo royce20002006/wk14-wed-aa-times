@@ -28,8 +28,7 @@ main {
   padding: 0 40px;
 }
 
-
-header, section {
+header, section  {
   max-width: 1400px;
   margin: auto;
 }
