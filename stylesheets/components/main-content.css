@@ -32,7 +32,7 @@ grid-template-areas:
 .main {
   display: block;
   position: relative;
-  bottom: 100px;
+  bottom: 120px;
   grid-area: main;
 }
 
@@ -54,7 +54,7 @@ h2 {
 
 .vid {
   position: relative;
-  bottom: 100px;
+  bottom: 160px;
   grid-area: vid;
 }
 
