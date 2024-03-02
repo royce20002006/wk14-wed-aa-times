@@ -7,3 +7,7 @@
 @import url("components/main-nav.css");
 @import url("components/masthead.css");
 @import url("components/search-modal.css");
+
+a:hover {
+  text-decoration: underline;
+}
