@@ -62,15 +62,17 @@
   display: none;
   
 } 
+
 .pref {
   right: 5px;
+  z-index: 1;
 }
 
 .main-nav {
   padding-bottom: 20px;
 }
 .main {
-  margin-bottom: 70px;
+  margin-bottom: 7px;
 }
 
 }
