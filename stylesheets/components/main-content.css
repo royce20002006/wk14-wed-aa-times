@@ -129,11 +129,17 @@ p {
 
 
 .art,
-.art-r {
+.art-r{
   border-top: 1px solid #e6e6e6;
 }
 
-.art-r {
+
+.art-rb {
+  border-top: 1px solid #e6e6e6;
+  
+  
+}
+.art {
   border-left: 1px solid #e6e6e6;
   padding-left: 10px;
   margin-bottom: -10px;
