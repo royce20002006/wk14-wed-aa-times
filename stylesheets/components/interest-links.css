@@ -34,6 +34,8 @@
   left: 50px;
   font-weight: 600;
   color: rgb(0, 201, 0);
+  padding-right: 10px;
+  margin-right: 10px;
 }
 
 .interests-bar__big-text {
@@ -47,7 +49,7 @@
 
 .sun {
   position: relative;
-  right: 40%;
+  right: 40px;
   width: 110px;
   border-left: 1px solid #e2e2e2;
   padding-left: 45px;
