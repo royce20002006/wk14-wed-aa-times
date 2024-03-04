@@ -113,7 +113,7 @@ h2 {
 .a1
 p {
   padding-bottom: 20px;
-  line-height: 16px;
+  
 }
 
 .video {
@@ -156,6 +156,16 @@ main p {
   font-size: 12px;
 }
 
+
+
+
+
+@media screen and (max-width: 1316px) {
+  main h1 {
+    line-height: 24px;
+  }
+
+}
 
 @media screen and (max-width: 1199px) {
 
